@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+body {
+    background-color: #111;
+}
+
+section {
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 1%;
+}
+
+header .logo a {
+    font-size: 25px;
+    color: #4ff35db7;
+}
+
+header .logo a span {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 15px;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn_profil {
+    color: #4ff35db7;
+    font-size: 16px;
+    border: 2px solid #4ff35db7;
+    padding: 5px 20px;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+.btn_profil:hover {
+    background-color: #4ff35db7;
+    color: #fff;
+}
+
+
+/*--- ACCEUILLE css*/
+
+#corp {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#mode_solo {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), #333), url("../image/fond.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#div_table,
+#position,
+#discu {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#discu {
+    position: relative;
+    width: 45%;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#profil {
+    border: 5px dashed #790000;
+    text-align: center;
+    border-radius: 10px;
+    width: 40%;
+}
+
+#div_table {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    background: url("../image/mon_table.png") no-repeat;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+#position {
+    border: 1px solid #1C1A19;
+    margin-top: 20px;
+    text-align: center;
+    height: 350px;
+    width: 20%;
+}
+
+#profil_img,
+#ident {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#profil_img {
+    height: 65px;
+    width: 65px;
+}
